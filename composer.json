@@ -1,28 +1,31 @@
 {
-    "name": "zhanchmini/demo",
-    "description": "zhanchmini demo",
-    "keywords": ["mini", "zhanch"],
-    "type": "library",
-    "authors": [
-        {
-            "name": "Chaghai Zhan",
-            "email": "761324952@qq.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.4"
-    },
-    "require-dev": {
-    },
-    "autoload": {
-        "psr-4": {
-            "Zhanchmini\\Demo\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Zhanchmini\\Demo\\Tests\\": "tests/"
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "zhanchmini/demo",
+  "description": "zhanchmini demo",
+  "keywords": [
+    "mini",
+    "zhanch"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Chaghai Zhan",
+      "email": "761324952@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Zhanchmini\\Demo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zhanchmini\\Demo\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
 }
