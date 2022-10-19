@@ -1,0 +1,12 @@
+@startuml
+
+class ContinuousSum {
+  # int $startNumber
+  # int $endNumber
+  - int $sum
+  + ContinuousSum __construct(int $startNumber = 1, int $endNumber = 100)
+  + void sum()
+  + int getSum()
+}
+
+@enduml
